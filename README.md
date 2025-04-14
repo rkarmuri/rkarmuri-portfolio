@@ -54,3 +54,7 @@ I’m AWS Certified Solutions Architect and Developer, proficient in Terraform, 
 - Deepen my expertise in cloud technologies (AWS, Azure).
 - Learn more about machine learning and data science.
 - Continue building scalable, production-ready applications using modern tech stacks.
+
+## License
+© 2025 Raju Karmuri. All rights reserved.
+
