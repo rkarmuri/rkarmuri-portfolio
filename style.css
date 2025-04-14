@@ -152,8 +152,14 @@ header {
                 position: absolute;
                 top: 1.2rem;
                 right: 1.2rem;
+                color: var(--blue-100);
+            }
+            .darkmode & {
+                background-color: #eec249;
+                border-radius: 45%;
             }
         }
+
         .dark {
             margin-left: auto;
             display: flex;
