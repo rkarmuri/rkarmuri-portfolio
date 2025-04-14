@@ -150,11 +150,12 @@ header {
             @media (max-width:768px) {
                 display: inline-block;
                 position: absolute;
-                top: 1.2rem;
+                top: 2rem;
                 right: 1.2rem;
                 color: var(--blue-100);
             }
             .darkmode & {
+                padding: 0.3rem;
                 background-color: #eec249;
                 border-radius: 45%;
             }
