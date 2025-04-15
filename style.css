@@ -155,10 +155,10 @@ header {
                 color: var(--blue-100);
             }
             .darkmode & {
-                padding: 0.3rem;
+                padding: 0.4rem;
                 top: 2rem;
                 background-color: #eec249;
-                border-radius: 45%;
+                border-radius: 25%;
             }
         }
 
@@ -167,6 +167,7 @@ header {
             display: flex;
             align-items: center;
             padding-left: 1rem;
+            padding-right: 12px;
         
             input[type="checkbox"] {
                 width: 0;
@@ -247,6 +248,13 @@ header {
     @media (max-width:768px) {
         flex-direction: column;
         align-items: center;
+        .logo-holder {
+            gap: 5px;
+            margin-left: -50px;
+            .logo-text {
+                font-size: 1.5rem;
+            }
+        }
         nav {
             margin-top: 0.6rem;
             width: 100%;
