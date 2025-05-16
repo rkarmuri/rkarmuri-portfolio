@@ -48,6 +48,7 @@ I’m AWS Certified Solutions Architect and Developer, proficient in Terraform, 
 - **Email**: [rajukarmuri731@gmail.com](mailto:rajukarmuri731@gmail.com)
 - **LinkedIn**: [linkedin.com/in/rajukarmuri731](https://linkedin.com/in/rajukarmuri731)
 - **GitHub**: [github.com/rkarmuri](https://github.com/rkarmuri)
+- **YouTube**: [youtube.com/CloudBuilderX](https://www.youtube.com/@CloudBuilderX-c7b)
 
 ## 🎯 Future Goals
 
