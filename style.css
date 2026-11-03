@@ -135,13 +135,23 @@ footer{margin-top:30px;min-height:130px;align-items:flex-start;padding-top:28px;
 .experience-bullets{max-width:680px;margin:0 0 18px;padding-left:19px;color:var(--muted)}
 .experience-bullets li{padding-left:4px;margin:0 0 10px}
 .experience-bullets li:last-child{margin-bottom:0}
-.experience-bullets strong{color:var(--ink)}
+.experience-bullets strong{display:block;color:var(--ink)}
 .timeline-note{margin:0;padding:16px 0 16px 235px;border-bottom:1px solid var(--line);color:var(--muted);font-size:13px}
 .architecture-flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 16px;padding:16px;border:1px solid var(--line);background:rgba(101,173,255,.05);color:var(--blue);font:11px 'DM Mono'}
 .architecture-flow span:nth-child(even){color:var(--muted)}
 .case-study-card .project-info p{margin-bottom:14px}
 .article-placeholder{display:grid;grid-template-columns:54px minmax(0,1fr) auto;align-items:center;gap:20px;padding:14px 5px;border-bottom:1px solid var(--line);color:var(--muted)}
 .article-placeholder[hidden]{display:none}
+.article-group-label{margin:28px 0 12px;color:var(--blue);font:500 11px 'DM Mono';letter-spacing:.08em;text-transform:uppercase}
+.article-list a.featured-article{display:block;padding:26px 28px;background:var(--card);border:1px solid var(--line);transition:transform .3s,border-color .3s,background .25s}
+.article-list a.featured-article:hover{padding-left:28px;background:var(--card);border-color:rgba(101,173,255,.8);transform:translateY(-3px)}
+.featured-article-meta{display:flex;justify-content:space-between;gap:16px;margin-bottom:16px;color:var(--blue);font:10px 'DM Mono';letter-spacing:.06em;text-transform:uppercase}
+.featured-article-meta time{color:var(--muted)}
+.article-list .featured-article h3{font-size:clamp(1.3rem,2.4vw,1.8rem);line-height:1.25;letter-spacing:-.04em;margin:0 0 12px}
+.article-list .featured-article p{max-width:900px;font:14px/1.7 Manrope,sans-serif;letter-spacing:normal;text-transform:none;color:var(--muted);margin:0 0 18px}
+.featured-article-tags{display:flex;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:0 0 20px}
+.featured-article-tags li{padding:5px 8px;border:1px solid var(--line);color:#b9c9d7;font:10px 'DM Mono'}
+.featured-article-link{font:500 11px 'DM Mono';color:var(--blue)}
 footer div{flex-wrap:wrap}
 @media(max-width:760px){.timeline-note{padding:14px 0 14px 23px}.article-placeholder{grid-template-columns:32px minmax(0,1fr) auto;gap:10px}.architecture-flow{gap:6px;padding:12px;font-size:10px}}
 .freelance-work{padding-top:72px}
