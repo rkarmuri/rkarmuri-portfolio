@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio of Raju Karmuri, Java Backend & AWS Engineer." />
-    <title>Raju Karmuri — Java Backend & AWS Engineer</title>
+      content="Java Backend &amp; AWS Engineer" />
+    <title>Java Backend &amp; AWS Engineer</title>
     <link rel="icon" href="./assets/rkarmuri.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -207,18 +207,20 @@
               <ul class="experience-bullets">
                 <li>
                   Production Java workloads: designed microservices on AWS
-                  Lambda and API Gateway. <strong>Result:</strong> TODO:
-                  requests/sec or workload scale.
+                  Lambda and API Gateway. <strong>Result:</strong> core
+                  serverless infrastructure for high-concurrency workloads.
                 </li>
                 <li>
                   Serverless database bottlenecks: owned Aurora PostgreSQL
-                  access through RDS Proxy. <strong>Result:</strong> TODO:
-                  latency before/after or connection-exhaustion reduction.
+                  access through RDS Proxy. <strong>Result:</strong> eliminated
+                  database connection bottlenecks and improved query execution
+                  times across serverless instances.
                 </li>
                 <li>
                   Secure file handling: engineered S3 pipelines.
-                  <strong>Result:</strong> TODO: pipeline throughput or error
-                  rate.
+                  <strong>Result:</strong> fine-grained, controlled uploads
+                  and downloads for external integrations via S3 pre-signed
+                  URLs.
                 </li>
                 <li>
                   Team testing practices: established automated testing
@@ -233,8 +235,8 @@
             </div>
           </article>
           <p class="timeline-note">
-            May 2025 – Jan 2026 · TODO: add short explanation, e.g.,
-            upskilling/certifications.
+            May 2025 – Jan 2026 · Relocated to India; focused on interview
+            preparation and job search, including system design study.
           </p>
           <article class="chapter-refinement">
             <div class="timeline-date"><span>Backend engineering</span>2024 — May 2025</div>
@@ -245,14 +247,16 @@
                 <li>
                   Document workflows across 6 federal programs: designed and
                   owned a secure document automation backend using Textract and
-                  event-driven workflows. <strong>Result:</strong> supported 6
-                  programs; TODO: documents processed or processing success
-                  rate.
+                  event-driven workflows.
+                  <strong>Result:</strong> supported 6 federal programs with
+                  automated OCR intake, classification, and routing of
+                  incoming documents.
                 </li>
                 <li>
                   Legacy services: modernized them into Spring Boot
-                  microservices. <strong>Result:</strong> TODO: add the number
-                  of services migrated or migration scope.
+                  microservices. <strong>Result:</strong> improved resiliency,
+                  modularity, and fault tolerance of the Treasury Management
+                  System.
                 </li>
                 <li>
                   Deployment lead time: automated delivery with Terraform,
@@ -302,8 +306,8 @@
                 </li>
                 <li>
                   Real-time grading: led a five-engineer Agile team and built a
-                  backend with Flask and OpenCV. <strong>Result:</strong> TODO:
-                  grading throughput or accuracy.
+                  backend with Flask and OpenCV. <strong>Result:</strong>
+                  real-time processing of scanned answer sheets.
                 </li>
               </ul>
               <div class="chips">
@@ -332,8 +336,9 @@
                 </li>
                 <li>
                   Continuous availability during change: executed failover
-                  migrations. <strong>Result:</strong> TODO: add migration
-                  downtime or recovery objective.
+                  migrations. <strong>Result:</strong> continuous availability
+                  across 5 distributed mainframe platforms during patch
+                  releases.
                 </li>
               </ul>
               <div class="chips">
@@ -363,7 +368,7 @@
         <div class="section-heading project-heading">
           <div>
             <p class="section-number">/ 04 — ENGINEERING PROJECTS</p>
-            <h2>Engineering projects with <em>measurable outcomes.</em></h2>
+            <h2>Engineering projects.</h2>
           </div>
           <a
             class="text-link"
@@ -402,28 +407,35 @@
           <article class="project-card case-study-card">
             <div class="project-info">
               <span class="project-index">02 / 03 · CASE STUDY</span>
-              <h3>Backend case study · TODO: add project title</h3>
+              <h3>Eliminating Lambda database connection bottlenecks</h3>
               <p>
-                <strong>Problem:</strong> TODO: describe the real backend
-                problem and its impact.
+                <strong>Problem:</strong> Serverless functions opening many
+                database connections created bottlenecks on Aurora PostgreSQL
+                under concurrent load.
               </p>
               <div
-                class="architecture-placeholder"
-                role="img"
-                aria-label="TODO: add architecture diagram image">
-                TODO: add architecture diagram image
+                class="architecture-flow"
+                aria-label="API Gateway → Lambda (Java) → RDS Proxy → Aurora PostgreSQL">
+                <span>API Gateway</span>
+                <span aria-hidden="true">→</span>
+                <span>Lambda (Java)</span>
+                <span aria-hidden="true">→</span>
+                <span>RDS Proxy</span>
+                <span aria-hidden="true">→</span>
+                <span>Aurora PostgreSQL</span>
               </div>
               <p>
-                <strong>Tech stack:</strong> Spring Boot · AWS Lambda/ECS ·
-                Aurora/DynamoDB
+                <strong>Tech stack:</strong> Java · AWS Lambda · API Gateway ·
+                RDS Proxy · Aurora PostgreSQL
               </p>
               <p>
-                <strong>Trade-offs:</strong> TODO: document the alternatives
-                considered and why they were chosen.
+                <strong>Trade-offs:</strong> RDS Proxy adds cost and a network
+                hop, but gives reliable connection pooling that per-function
+                pooling cannot provide across Lambda instances.
               </p>
               <p>
-                <strong>Results:</strong> TODO: add verified outcomes and
-                supporting metrics.
+                <strong>Results:</strong> Removed connection bottlenecks and
+                improved query execution times.
               </p>
             </div>
           </article>
@@ -435,7 +447,7 @@
                 Building an AI tool to help recruiters screen candidates before
                 interviews and give interviewers evidence-based feedback.
               </p>
-              <p><strong>Link or write-up:</strong> TODO: add project link or write-up.</p>
+              <p><strong>Status:</strong> in development.</p>
             </div>
           </article>
         </div>
@@ -448,8 +460,9 @@
             <h2>Freelance &amp; <em>side work.</em></h2>
           </div>
           <p class="freelance-intro">
-            I also take on freelance projects for small businesses, handling
-            design, build, and delivery end to end.
+            Alongside my full-time engineering role, I take on freelance
+            projects for small businesses, handling design, build, and
+            delivery end to end.
           </p>
         </div>
         <div class="project-grid freelance-grid">
@@ -510,8 +523,11 @@
             <div class="project-info">
               <span class="project-index">PHOTOGRAPHY WEBSITE</span>
               <h3>Photography website</h3>
-              <p>TODO: add a description of the in-progress website.</p>
-              <p><strong>Link:</strong> TODO: add website link.</p>
+              <p>
+                A portfolio website for photography work, currently in
+                development.
+              </p>
+              <p><strong>Coming soon.</strong></p>
             </div>
           </article>
         </div>
@@ -601,11 +617,11 @@
             </div>
             <span class="article-arrow">↗</span></a
           >
-          <div class="article-placeholder">
+          <div class="article-placeholder" hidden>
             <span class="article-number">TECH</span>
             <div>
-              <p>Technical post · TODO: add link</p>
-              <h3>TODO: How I fixed Lambda DB connection exhaustion with RDS Proxy</h3>
+              <p>Technical post</p>
+              <h3>How I fixed Lambda DB connection exhaustion with RDS Proxy</h3>
             </div>
             <span class="article-arrow" aria-hidden="true">↗</span>
           </div>

@@ -2,7 +2,7 @@
 :root{--ink:#edf3f8;--muted:#9aa8b8;--line:rgba(214,230,244,.15);--blue:#65adff;--blue-deep:#173b75;--paper:#0b1017;--card:#111923;--lime:#d8f57c}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,sans-serif;overflow-x:hidden}
+body{margin:0;padding-bottom:90px;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,sans-serif;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 .page-glow{position:absolute;pointer-events:none;filter:blur(1px);border-radius:50%;opacity:.35}
 .glow-one{width:720px;height:720px;top:-330px;right:-170px;background:radial-gradient(circle,#0d54ae,transparent 65%)}
@@ -137,11 +137,13 @@ footer{margin-top:30px;min-height:130px;align-items:flex-start;padding-top:28px;
 .experience-bullets li:last-child{margin-bottom:0}
 .experience-bullets strong{color:var(--ink)}
 .timeline-note{margin:0;padding:16px 0 16px 235px;border-bottom:1px solid var(--line);color:var(--muted);font-size:13px}
-.architecture-placeholder{margin:0 0 16px;padding:28px 16px;border:1px dashed rgba(101,173,255,.55);color:var(--blue);font:11px 'DM Mono';text-align:center}
+.architecture-flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 16px;padding:16px;border:1px solid var(--line);background:rgba(101,173,255,.05);color:var(--blue);font:11px 'DM Mono'}
+.architecture-flow span:nth-child(even){color:var(--muted)}
 .case-study-card .project-info p{margin-bottom:14px}
-.article-placeholder{display:grid;grid-template-columns:88px 54px 1fr auto;align-items:center;gap:20px;padding:14px 5px;border-bottom:1px solid var(--line);color:var(--muted)}
+.article-placeholder{display:grid;grid-template-columns:54px minmax(0,1fr) auto;align-items:center;gap:20px;padding:14px 5px;border-bottom:1px solid var(--line);color:var(--muted)}
+.article-placeholder[hidden]{display:none}
 footer div{flex-wrap:wrap}
-@media(max-width:760px){.timeline-note{padding:14px 0 14px 23px}.article-placeholder{grid-template-columns:64px 32px 1fr auto;gap:10px}}
+@media(max-width:760px){.timeline-note{padding:14px 0 14px 23px}.article-placeholder{grid-template-columns:32px minmax(0,1fr) auto;gap:10px}.architecture-flow{gap:6px;padding:12px;font-size:10px}}
 .freelance-work{padding-top:72px}
 .freelance-intro{max-width:365px;color:var(--muted);font-size:14px;margin:0}
 .freelance-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
