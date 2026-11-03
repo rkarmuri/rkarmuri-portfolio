@@ -132,10 +132,10 @@ footer{margin-top:30px;min-height:130px;align-items:flex-start;padding-top:28px;
 @media(max-width:760px){.journey-strip{grid-template-columns:1fr;gap:18px;padding:24px 16px}.journey-stops{grid-template-columns:1fr;gap:16px}.journey-stops:before{top:12px;bottom:12px;left:11px;right:auto;width:1px;height:auto;background:linear-gradient(var(--blue),rgba(101,173,255,.14))}.journey-stops article{padding-left:30px}.timeline:before{left:4px}.timeline article{padding-left:23px}.timeline article:after{left:0;top:31px}}
 @media(max-width:760px){.curiosity-log{margin-top:48px;grid-template-columns:1fr;gap:25px;padding:24px 20px}.curiosity-items{grid-template-columns:1fr;gap:20px}}
 .additional-skills{margin:18px 0 0;color:var(--muted);font-size:13px}.additional-skills strong{color:var(--blue)}
-.experience-bullets{max-width:680px;margin:0 0 18px;padding-left:19px;color:var(--muted)}
+.experience-bullets{max-width:520px;margin:0 0 18px;padding-left:19px;color:var(--muted);font-size:15px}
 .experience-bullets li{padding-left:4px;margin:0 0 10px}
 .experience-bullets li:last-child{margin-bottom:0}
-.experience-bullets strong{display:block;color:var(--ink)}
+.experience-bullets strong{color:var(--blue)}
 .timeline-note{margin:0;padding:16px 0 16px 235px;border-bottom:1px solid var(--line);color:var(--muted);font-size:13px}
 .architecture-flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 16px;padding:16px;border:1px solid var(--line);background:rgba(101,173,255,.05);color:var(--blue);font:11px 'DM Mono'}
 .architecture-flow span:nth-child(even){color:var(--muted)}
