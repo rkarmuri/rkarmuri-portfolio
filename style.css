@@ -131,3 +131,25 @@ footer{margin-top:30px;min-height:130px;align-items:flex-start;padding-top:28px;
 @media(max-width:760px){.writing{padding-top:85px}.writing-intro{margin-top:20px}.article-list a{grid-template-columns:64px 32px 1fr auto;gap:10px}.article-image{width:64px;height:52px}.article-list h3{font-size:16px}}
 @media(max-width:760px){.journey-strip{grid-template-columns:1fr;gap:18px;padding:24px 16px}.journey-stops{grid-template-columns:1fr;gap:16px}.journey-stops:before{top:12px;bottom:12px;left:11px;right:auto;width:1px;height:auto;background:linear-gradient(var(--blue),rgba(101,173,255,.14))}.journey-stops article{padding-left:30px}.timeline:before{left:4px}.timeline article{padding-left:23px}.timeline article:after{left:0;top:31px}}
 @media(max-width:760px){.curiosity-log{margin-top:48px;grid-template-columns:1fr;gap:25px;padding:24px 20px}.curiosity-items{grid-template-columns:1fr;gap:20px}}
+.additional-skills{margin:18px 0 0;color:var(--muted);font-size:13px}.additional-skills strong{color:var(--blue)}
+.experience-bullets{max-width:680px;margin:0 0 18px;padding-left:19px;color:var(--muted)}
+.experience-bullets li{padding-left:4px;margin:0 0 10px}
+.experience-bullets li:last-child{margin-bottom:0}
+.experience-bullets strong{color:var(--ink)}
+.timeline-note{margin:0;padding:16px 0 16px 235px;border-bottom:1px solid var(--line);color:var(--muted);font-size:13px}
+.architecture-placeholder{margin:0 0 16px;padding:28px 16px;border:1px dashed rgba(101,173,255,.55);color:var(--blue);font:11px 'DM Mono';text-align:center}
+.case-study-card .project-info p{margin-bottom:14px}
+.article-placeholder{display:grid;grid-template-columns:88px 54px 1fr auto;align-items:center;gap:20px;padding:14px 5px;border-bottom:1px solid var(--line);color:var(--muted)}
+footer div{flex-wrap:wrap}
+@media(max-width:760px){.timeline-note{padding:14px 0 14px 23px}.article-placeholder{grid-template-columns:64px 32px 1fr auto;gap:10px}}
+.freelance-work{padding-top:72px}
+.freelance-intro{max-width:365px;color:var(--muted);font-size:14px;margin:0}
+.freelance-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.freelance-grid .project-card{background:rgba(17,25,35,.55);border-color:rgba(214,230,244,.1)}
+.freelance-grid .project-card:hover{transform:translateY(-3px);border-color:rgba(101,173,255,.4)}
+.freelance-grid .project-image{height:150px}
+.freelance-grid .project-info{padding:18px}
+.freelance-grid .project-info h3{font-size:19px}
+.freelance-grid .project-info p{font-size:12px}
+.in-progress-image{display:grid;place-items:center;background:linear-gradient(135deg,#162536,#111923);color:var(--muted);font:10px 'DM Mono';letter-spacing:.1em}
+@media(max-width:760px){.freelance-work{padding-top:42px}.freelance-intro{margin-top:20px}.freelance-grid{grid-template-columns:1fr}}
